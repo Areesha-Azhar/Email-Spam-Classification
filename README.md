@@ -74,7 +74,9 @@ The raw dataset contained 5572 rows and 5 columns. After data cleaning and EDA, 
 
 **2. transformed_text:** The cleaned and preprocessed text of the message.
 
+
 **Requirements**
+
 The following libraries were used in this project:
 
 1. Streamlit
@@ -88,6 +90,7 @@ The following libraries were used in this project:
 5. Scikit-learn
 
 6. Wordcloud
+
 
 **Steps Followed**
 
