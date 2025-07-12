@@ -1,15 +1,21 @@
 **Overview**
+
 This project focuses on building a machine learning model to classify emails as spam or not spam using natural language processing (NLP) techniques. The dataset used is the SMS Spam Collection Dataset from Kaggle, which contains 5572 SMS messages labeled as spam or ham (not spam).
 
 **Motivation**
+
 Spam emails are a significant issue, causing inconvenience and security risks. This project aims to develop an effective spam classification model to help filter out unwanted messages, enhancing email security and user experience.
 
 **Problem Statement**
+
 The goal is to classify emails as spam or ham using various NLP and machine learning techniques, focusing on achieving high precision to minimize false positives.
 
 **Success Metrics**
+
 The performance of the models is evaluated using the following metrics:
+
 1.Accuracy
+
 2.Precision
 
 **Methodology**
@@ -48,27 +54,44 @@ Deployed the application on Streamlit Cloud.
 The Multinomial Naive Bayes model performed best in terms of precision, making it the chosen model for this project. Despite BernoulliNB and GaussianNB showing better overall performance, the high precision of MultinomialNB makes it more suitable for our needs.
 
 **Dataset**
+
 The raw dataset contained 5572 rows and 5 columns. After data cleaning and EDA, the focus was on two columns:
+
 **1.target:** The label indicating if the message is spam or ham.
+
 **2.transformed_text:** The cleaned and preprocessed text of the message.
 
 **Requirements**
 The following libraries were used in this project:
+
 1.Streamlit
+
 2.NLTK
+
 3.Pandas
+
 4.Numpy
+
 5.Scikit-learn
+
 6.Wordcloud
 
 **Steps Followed**
+
 1.Data Cleaning 🧹
+
 2.EDA 📊
+
 3.Text Preprocessing ✍️
+
 4.Model Building 🛠️
+
 5.Evaluation 📈
+
 6.Improvement 🔧
+
 7.Website 🌐
+
 8.Deployment 🚀
 
 **Conclusion**
