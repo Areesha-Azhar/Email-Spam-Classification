@@ -14,29 +14,29 @@ The goal is to classify emails as spam or ham using various NLP and machine lear
 
 The performance of the models is evaluated using the following metrics:
 
-1.Accuracy
+1. Accuracy
 
-2.Precision
+2. Precision
 
 **Methodology**
 
-**1.Data Cleaning 🧹**
+**1. Data Cleaning 🧹**
 
 Removed duplicates, handled missing values, and transformed the text data.
 
-**2.Exploratory Data Analysis (EDA) 📊**
+**2. Exploratory Data Analysis (EDA) 📊**
 
 Analyzed the distribution of spam and ham emails.
 
-**3.Text Preprocessing ✍️**
+**3. Text Preprocessing ✍️**
 
 Converted text to lower case, removed stop words, and applied stemming.
 
-**4.Vectorization 🧮**
+**4. Vectorization 🧮**
 
 Used Bag of Words (BoW) and Term Frequency-Inverse Document Frequency (TF-IDF) techniques for text vectorization.
 
-**5.Model Building 🛠️**
+**5. Model Building 🛠️**
 
 Implemented various models including:
 
@@ -46,19 +46,19 @@ Implemented various models including:
 
 -Gaussian Naive Bayes
 
-**6.Evaluation 📈**
+**6. Evaluation 📈**
 
 Evaluated models based on accuracy, precision,
 
-**7.Improvement 🔧**
+**7. Improvement 🔧**
 
 Tuned hyperparameters and tried different vectorization techniques to improve performance.
 
-**8.Website 🌐**
+**8. Website 🌐**
 
 Built a user-friendly web interface using Streamlit.
 
-**9.Deployment 🚀**
+**9. Deployment 🚀**
 
 Deployed the application on Streamlit Cloud.
 
